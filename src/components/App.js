@@ -19,9 +19,6 @@ class App extends React.Component {
           <div className="containerImg">
             <img className="title" alt="title" src={title}></img>
           </div>
-          {/* <div className="title2">
-            <p>...my collection</p>
-          </div> */}
         </header>
         <main className="main">
           <Pokelist pokemons={this.state.pokemons} />
